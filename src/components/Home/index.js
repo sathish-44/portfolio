@@ -5,6 +5,7 @@ import coverPic from '../../images/cover.jpg'
 import profilePic from '../../images/profile.jpg'
 import Typography from '@mui/material/Typography';
 import infogain from '../../images/infogain.jpg'
+import gasc from '../../images/gasc.jpg'
 
 function Home() {
     return <>
@@ -30,7 +31,7 @@ function Home() {
                 </div>
 
                 <div className='personal_infoR'>        
-                    <Typography variant="overline" display="block" gutterBottom style={{margin: 0}}>
+                    <Typography variant="caption" display="block" gutterBottom style={{margin: 0}}>
                     Learn to Clap in Others Victory, Then your Time'll Come. 
                     {/* In the meantime, I am enjoying myself by working with #React */}
                     </Typography>
@@ -41,7 +42,7 @@ function Home() {
                        <img src={infogain} width={15} alt='infogain'/> Infogain
                     </Typography>
                     <Typography variant="subtitle2" gutterBottom style={{margin: 0}}>
-                        Gobi Arts & Science College
+                    <img src={gasc} width={15} alt='gasc'/> Gobi Arts & Science College
                     </Typography>
                 </div>
 
