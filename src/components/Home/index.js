@@ -9,7 +9,7 @@ import infogain from '../../images/infogain.jpg'
 function Home() {
     return <>
         <Container>
-            <div style={{marginTop: '50px'}}>
+            <div>
             <div className="the-header">
                 <img className="header-background" src={coverPic} id="header-background-id" alt="background" />
             </div>
