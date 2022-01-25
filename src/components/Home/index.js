@@ -10,7 +10,7 @@ function Home() {
     return <>
         <Container>
             <div className="the-header">
-                <img className="header-background" src={coverPic} id="header-background-id" alt="background-img" />
+                <img className="header-background" src={coverPic} id="header-background-id" alt="background" />
             </div>
             <>
                 <img className="profile-picture" src={profilePic} alt="profile" />
