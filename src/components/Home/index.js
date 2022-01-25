@@ -13,7 +13,7 @@ function Home() {
                 <img className="header-background" src={coverPic} id="header-background-id" alt="background-img" />
             </div>
             <>
-                <img className="profile-picture" src={profilePic} alt="profile-picture" />
+                <img className="profile-picture" src={profilePic} alt="profile" />
             </>
             <div className='personal_detail'>
                 <div className='personal_infoL'>        
