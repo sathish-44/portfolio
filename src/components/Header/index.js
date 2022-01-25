@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../../logo.svg'
+import logo from '../../images/logo.png'
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 
@@ -19,8 +19,7 @@ const NavBar = (props) => {
                 <Navbar.Brand>
                     <img
                         src={logo}
-                        width="30"
-                        height="30"
+                        width="25"
                         className="d-inline-block align-top"
                         alt="React Bootstrap logo"
                     />
@@ -28,8 +27,10 @@ const NavBar = (props) => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">CERTIFICATIONS</Nav.Link>
-                        <Nav.Link href="#pricing">EXPERIENCE</Nav.Link>
+                        <Nav.Link>About</Nav.Link>
+                        <Nav.Link>My Skills</Nav.Link>
+                        <Nav.Link>Work</Nav.Link>
+                        <Nav.Link>Contact</Nav.Link>
 
                     </Nav>
                     <Nav>

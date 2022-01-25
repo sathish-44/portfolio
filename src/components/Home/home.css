@@ -1,0 +1,38 @@
+.the-header{
+  position: relative;
+  padding: 120px 20px
+}
+.header-background{
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  height: 40vh;
+  z-index: -100;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.profile-picture{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top: -55px;
+  border: 5px solid snow;
+}
+
+.personal_detail{
+  display: flex;
+  justify-content: space-between
+}
+
+@media all and (max-width : 540px) {
+  .header-background {
+    height: 20vh;
+  }
+  .the-header{
+    padding: 90px 20px;
+  }
+  .personal_detail{
+    flex-direction: column;
+  }
+}
