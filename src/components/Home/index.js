@@ -37,7 +37,7 @@ function Home() {
 
                 <div className='personal_infoR'>        
                     <Typography variant="subtitle2" gutterBottom style={{margin: 0}}>
-                       <img src={infogain} width={15}/> Infogain
+                       <img src={infogain} width={15} alt='infogain'/> Infogain
                     </Typography>
                     <Typography variant="subtitle2" gutterBottom style={{margin: 0}}>
                         Gobi Arts & Science College
